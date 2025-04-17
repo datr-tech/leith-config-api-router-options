@@ -45,6 +45,7 @@
     "postversion": "git push origin master --tags --no-verify",
     "precommit": "npm-run-all format lint spell",
     "prepare": "husky",
+    "prepush": "npm run lint",
     "spell": "npx cspell ./src/**/*.ts",
     "test:it": "npx jest ./test/integration",
     "test:unit": "npx jest ./test/unit --coverage",
