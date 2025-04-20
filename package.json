@@ -1,6 +1,6 @@
 {
   "name": "@datr.tech/leith-config-api-router-options",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "private": false,
   "description": "A Leith config package of API router options",
   "keywords": [
